@@ -1,0 +1,24 @@
+{
+	"name": "lbarulski/gatekeeper-propel-bundle",
+	"description": "description_text",
+	"minimum-stability": "stable",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Łukasz Barulski",
+			"email": "tracerout@yahoo.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"symfony/symfony": ">=2.3",
+		"propel/propel-bundle": "1.2.*",
+		"docplanner/gatekeeper": "dev-master",
+		"docplanner/gatekeeper-bundle": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"GateKeeperPropelBundle\\": ""
+		}
+	}
+}

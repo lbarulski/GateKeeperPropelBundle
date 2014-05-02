@@ -1,0 +1,6 @@
+parameters:
+    gate_keeper_panel.repository.class: lbarulski\GateKeeperPropelBundle\Repository\Propel
+
+services:
+    gate_keeper_panel.repository:
+        class: %gate_keeper_panel.repository.class%
