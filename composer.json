@@ -1,6 +1,6 @@
 {
 	"name": "lbarulski/gatekeeper-propel-bundle",
-	"description": "description_text",
+	"description": "GateKeeperBundle integration with Propel",
 	"minimum-stability": "stable",
 	"license": "proprietary",
 	"authors": [
@@ -18,7 +18,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"GateKeeperPropelBundle\\": ""
+			"lbarulski\\GateKeeperPropelBundle\\": ""
 		}
 	}
 }
