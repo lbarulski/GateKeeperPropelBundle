@@ -1,6 +1,6 @@
 <?php
 
-namespace lbarulski\GateKeeperPropelBundle\DependencyInjection;
+namespace GateKeeperPropelBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

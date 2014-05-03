@@ -4,12 +4,12 @@
  * Date: 02.05.14 12:46
  */
 
-namespace lbarulski\GateKeeperPropelBundle\Repository;
+namespace GateKeeperPropelBundle\Repository;
 
 use GateKeeper\Model\ModelInterface;
 use GateKeeper\Repository\RepositoryInterface;
-use lbarulski\GateKeeperPropelBundle\Model\GateKeeper;
-use lbarulski\GateKeeperPropelBundle\Model\GateKeeperQuery;
+use GateKeeperPropelBundle\Model\GateKeeper;
+use GateKeeperPropelBundle\Model\GateKeeperQuery;
 
 class Propel implements RepositoryInterface
 {

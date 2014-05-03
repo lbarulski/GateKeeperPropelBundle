@@ -1,5 +1,5 @@
 parameters:
-    gate_keeper_panel.repository.class: lbarulski\GateKeeperPropelBundle\Repository\Propel
+    gate_keeper_panel.repository.class: GateKeeperPropelBundle\Repository\Propel
 
 services:
     gate_keeper_panel.repository:

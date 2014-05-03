@@ -1,8 +1,8 @@
 <?php
 
-namespace lbarulski\GateKeeperPropelBundle\Model;
+namespace GateKeeperPropelBundle\Model;
 
-use lbarulski\GateKeeperPropelBundle\Model\om\BaseGateKeeperPeer;
+use GateKeeperPropelBundle\Model\om\BaseGateKeeperPeer;
 
 class GateKeeperPeer extends BaseGateKeeperPeer
 {

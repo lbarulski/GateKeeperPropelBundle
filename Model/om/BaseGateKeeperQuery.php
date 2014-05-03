@@ -1,6 +1,6 @@
 <?php
 
-namespace lbarulski\GateKeeperPropelBundle\Model\om;
+namespace GateKeeperPropelBundle\Model\om;
 
 use \Criteria;
 use \Exception;
@@ -10,9 +10,9 @@ use \Propel;
 use \PropelException;
 use \PropelObjectCollection;
 use \PropelPDO;
-use lbarulski\GateKeeperPropelBundle\Model\GateKeeper;
-use lbarulski\GateKeeperPropelBundle\Model\GateKeeperPeer;
-use lbarulski\GateKeeperPropelBundle\Model\GateKeeperQuery;
+use GateKeeperPropelBundle\Model\GateKeeper;
+use GateKeeperPropelBundle\Model\GateKeeperPeer;
+use GateKeeperPropelBundle\Model\GateKeeperQuery;
 
 /**
  * @method GateKeeperQuery orderById($order = Criteria::ASC) Order by the id column
@@ -60,7 +60,7 @@ abstract class BaseGateKeeperQuery extends ModelCriteria
             $dbName = 'default';
         }
         if (null === $modelName) {
-            $modelName = 'lbarulski\\GateKeeperPropelBundle\\Model\\GateKeeper';
+            $modelName = 'GateKeeperPropelBundle\\Model\\GateKeeper';
         }
         parent::__construct($dbName, $modelName, $modelAlias);
     }

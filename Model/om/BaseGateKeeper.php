@@ -1,6 +1,6 @@
 <?php
 
-namespace lbarulski\GateKeeperPropelBundle\Model\om;
+namespace GateKeeperPropelBundle\Model\om;
 
 use \BaseObject;
 use \BasePeer;
@@ -13,16 +13,16 @@ use \Propel;
 use \PropelDateTime;
 use \PropelException;
 use \PropelPDO;
-use lbarulski\GateKeeperPropelBundle\Model\GateKeeper;
-use lbarulski\GateKeeperPropelBundle\Model\GateKeeperPeer;
-use lbarulski\GateKeeperPropelBundle\Model\GateKeeperQuery;
+use GateKeeperPropelBundle\Model\GateKeeper;
+use GateKeeperPropelBundle\Model\GateKeeperPeer;
+use GateKeeperPropelBundle\Model\GateKeeperQuery;
 
 abstract class BaseGateKeeper extends BaseObject implements Persistent
 {
     /**
      * Peer class name
      */
-    const PEER = 'lbarulski\\GateKeeperPropelBundle\\Model\\GateKeeperPeer';
+    const PEER = 'GateKeeperPropelBundle\\Model\\GateKeeperPeer';
 
     /**
      * The Peer class.

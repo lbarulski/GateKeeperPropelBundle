@@ -1,6 +1,6 @@
 <?php
 
-namespace lbarulski\GateKeeperPropelBundle\Model\map;
+namespace GateKeeperPropelBundle\Model\map;
 
 use \RelationMap;
 use \TableMap;
@@ -16,7 +16,7 @@ use \TableMap;
  * ORDER BY clause to know whether it needs to apply SQL to make the ORDER BY case-insensitive
  * (i.e. if it's a text column type).
  *
- * @package    propel.generator.src.lbarulski.GateKeeperPropelBundle.Model.map
+ * @package    propel.generator.src.GateKeeperPropelBundle.Model.map
  */
 class GateKeeperTableMap extends TableMap
 {
@@ -24,7 +24,7 @@ class GateKeeperTableMap extends TableMap
     /**
      * The (dot-path) name of this class
      */
-    const CLASS_NAME = 'src.lbarulski.GateKeeperPropelBundle.Model.map.GateKeeperTableMap';
+    const CLASS_NAME = 'src.GateKeeperPropelBundle.Model.map.GateKeeperTableMap';
 
     /**
      * Initialize the table attributes, columns and validators
@@ -38,8 +38,8 @@ class GateKeeperTableMap extends TableMap
         // attributes
         $this->setName('gatekeeper');
         $this->setPhpName('GateKeeper');
-        $this->setClassname('lbarulski\\GateKeeperPropelBundle\\Model\\GateKeeper');
-        $this->setPackage('src.lbarulski.GateKeeperPropelBundle.Model');
+        $this->setClassname('GateKeeperPropelBundle\\Model\\GateKeeper');
+        $this->setPackage('src.GateKeeperPropelBundle.Model');
         $this->setUseIdGenerator(true);
         // columns
         $this->addPrimaryKey('id', 'Id', 'INTEGER', true, null, null);

@@ -1,8 +1,8 @@
 <?php
 
-namespace lbarulski\GateKeeperPropelBundle\Model;
+namespace GateKeeperPropelBundle\Model;
 
-use lbarulski\GateKeeperPropelBundle\Model\om\BaseGateKeeperQuery;
+use GateKeeperPropelBundle\Model\om\BaseGateKeeperQuery;
 
 class GateKeeperQuery extends BaseGateKeeperQuery
 {

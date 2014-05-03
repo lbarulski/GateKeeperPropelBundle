@@ -1,6 +1,6 @@
 <?php
 
-namespace lbarulski\GateKeeperPropelBundle\Model\om;
+namespace GateKeeperPropelBundle\Model\om;
 
 use \BasePeer;
 use \Criteria;
@@ -9,9 +9,9 @@ use \PDOStatement;
 use \Propel;
 use \PropelException;
 use \PropelPDO;
-use lbarulski\GateKeeperPropelBundle\Model\GateKeeper;
-use lbarulski\GateKeeperPropelBundle\Model\GateKeeperPeer;
-use lbarulski\GateKeeperPropelBundle\Model\map\GateKeeperTableMap;
+use GateKeeperPropelBundle\Model\GateKeeper;
+use GateKeeperPropelBundle\Model\GateKeeperPeer;
+use GateKeeperPropelBundle\Model\map\GateKeeperTableMap;
 
 abstract class BaseGateKeeperPeer
 {
@@ -23,10 +23,10 @@ abstract class BaseGateKeeperPeer
     const TABLE_NAME = 'gatekeeper';
 
     /** the related Propel class for this table */
-    const OM_CLASS = 'lbarulski\\GateKeeperPropelBundle\\Model\\GateKeeper';
+    const OM_CLASS = 'GateKeeperPropelBundle\\Model\\GateKeeper';
 
     /** the related TableMap class for this table */
-    const TM_CLASS = 'lbarulski\\GateKeeperPropelBundle\\Model\\map\\GateKeeperTableMap';
+    const TM_CLASS = 'GateKeeperPropelBundle\\Model\\map\\GateKeeperTableMap';
 
     /** The total number of columns. */
     const NUM_COLUMNS = 5;
@@ -495,7 +495,7 @@ abstract class BaseGateKeeperPeer
     {
       $dbMap = Propel::getDatabaseMap(BaseGateKeeperPeer::DATABASE_NAME);
       if (!$dbMap->hasTable(BaseGateKeeperPeer::TABLE_NAME)) {
-        $dbMap->addTableObject(new \lbarulski\GateKeeperPropelBundle\Model\map\GateKeeperTableMap());
+        $dbMap->addTableObject(new \GateKeeperPropelBundle\Model\map\GateKeeperTableMap());
       }
     }
 

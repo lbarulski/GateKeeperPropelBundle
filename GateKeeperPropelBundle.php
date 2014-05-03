@@ -1,6 +1,6 @@
 <?php
 
-namespace lbarulski\GateKeeperPropelBundle;
+namespace GateKeeperPropelBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
