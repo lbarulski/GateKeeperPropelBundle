@@ -3,7 +3,7 @@ GateKeeperPropelBundle
 
 ## Installation
 #### Composer require
- - `"docplanner/gatekeeper-bundle": "dev-master"`
+ - `"docplanner/gatekeeper-bundle": "1.0.0"`
  - `"lbarulski/gatekeeper-propel-bundle": "dev-master"`
 
 #### Register bundles
